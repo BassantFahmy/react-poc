@@ -1,0 +1,33 @@
+.footer {
+    background-color: $primary;
+    color: $white;
+    height: 13rem;
+    width: 100%;
+    justify-content: space-around;
+    text-align: left;
+    display: flex;
+    // position: static;
+    // bottom: 0;
+    // left: 0;
+    z-index: 10;
+    flex-direction: row;
+
+    padding: $padding-medium;
+    .icon-style {
+        font-size: 4rem;
+        margin-right: $padding-medium;
+        color: $white;
+    }
+    &-icons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media screen and (max-width: 600px) {
+    .footer {
+        flex-direction: column;
+        text-align: center;
+        height: 20rem;
+    }
+}

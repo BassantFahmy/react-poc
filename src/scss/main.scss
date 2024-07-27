@@ -1,0 +1,18 @@
+@import 'abstracts/variables';
+@import 'abstracts/mixins';
+
+@import 'base/base';
+@import 'base/typography';
+@import 'base/utilities';
+
+
+@import 'components/navbar.scss';
+@import 'components/btn.scss';
+@import 'components/sideNavbar';
+@import 'components/footer';
+@import 'components/card';
+
+
+@import 'pages/services.scss';
+@import 'pages/products';
+@import 'pages/home';

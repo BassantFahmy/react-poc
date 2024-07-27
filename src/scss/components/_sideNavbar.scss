@@ -1,0 +1,20 @@
+.sidebar {
+    width: 25rem;
+    z-index: 30;
+    color: $gray;
+    background-color: $white;
+    height: 92vh;
+    border-right: 1px solid $gray;
+    position: fixed;
+    li {
+        height: 5rem;
+        padding-left: $padding-medium;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        @include block-colors($white, $gray);
+        &:hover {
+            @include block-colors($white, $primary);
+        }
+    }
+}

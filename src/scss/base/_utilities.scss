@@ -1,0 +1,28 @@
+.t-flex{
+    display: flex;
+    min-height: calc(100vh - 19rem);
+}
+.t-pr-m{
+    padding-right: $padding-medium;
+}
+.t-pl-m{
+    padding-left: $padding-medium;
+}
+.t-pt-m{
+    padding-top: $padding-medium;
+}
+.t-text-center{
+    text-align: center;
+}
+.t-show{
+    display: block;
+}
+.t-hide{
+    display: none;
+}
+.t-container{
+    margin:auto
+}
+.t-bold{
+    font-weight: bold;
+}

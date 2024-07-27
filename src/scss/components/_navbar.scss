@@ -1,0 +1,38 @@
+.navbar {
+    width: 100%;
+    background-color: white;
+    position: relative;
+    color: $gray;
+    position: sticky; 
+    top: 0;
+    z-index: 30;
+    border-bottom: 1px solid #888;
+    display: flex;
+    align-items: center; 
+    &__list {
+        display: flex; 
+        justify-content: flex-end;
+    }
+    &__logo {
+        display: flex;
+        height: 6rem;
+        flex-grow: 1;
+    }
+}
+.btn {
+    display: inline-block;
+    &--rectangle {
+        padding-right: $padding-small;
+        padding-left: $padding-small;
+        padding-top: $padding-medium;
+        padding-bottom: $padding-medium;
+    }
+    &--white {
+        @include block-colors($white, $gray);
+        &:hover {
+            @include block-colors($white, $primary);
+        }
+    }
+   
+
+}

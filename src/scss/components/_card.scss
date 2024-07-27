@@ -1,0 +1,37 @@
+.product-card{
+    position: relative;
+    width: 25rem;
+    height: 25rem;
+    overflow: hidden;
+    margin:5rem;
+    text-align: center;
+    &-layout{
+        opacity: 0;
+        background-color: rgba(218,218,212,0.3);
+        position: absolute;
+        width: 25rem;
+        height: 25rem;
+        transition: 0.7s;
+    }
+    &-footer{
+        display: flex;
+        z-index: 1;
+        position: absolute;
+        bottom:-6rem;
+        text-align: center;
+        transition: 1s;
+        transform: translateY(0);
+    }
+    &:hover .product-card-layout{
+        opacity: 1;
+
+    }
+    &:hover .product-card-img{
+        transform: translateY(-45px);
+        
+    }
+    &:hover .product-card-footer{
+        transform: translateY(-6rem);
+        
+    }
+}

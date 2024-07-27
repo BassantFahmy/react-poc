@@ -1,0 +1,17 @@
+.btn {
+    display: inline-block;
+    &--rectangle {
+        padding-right: $padding-small;
+        padding-left: $padding-small;
+        padding-top: $padding-medium;
+        padding-bottom: $padding-medium;
+    }
+    &--white {
+        @include block-colors($white, $gray);
+        &:hover {
+            @include block-colors($white, $primary);
+        }
+    }
+   
+
+}

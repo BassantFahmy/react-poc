@@ -1,0 +1,38 @@
+.cover {
+    height: 45rem;
+    width: 100%;
+    color: rgba(255, 255, 255, .92);
+    background-repeat: no-repeat;
+    background-image: url(src/assets/images/1.jpg);
+    background-size: cover;
+    text-align: center;
+
+}
+
+.layout {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 45rem;
+}
+
+
+.title {
+    font-size: 5rem;
+    font-weight: 400;
+    margin: auto;
+    width: 80%;
+    &-sm {
+        font-size: 2rem;
+        color: rgba(255, 255, 255, .92);
+        padding-top: 15rem;
+    }
+}
+@media screen and (max-width: 600px) {
+    .title {
+        font-size: 2rem;
+        &-sm {
+            font-size: 1rem;
+            
+            padding-top: 10rem;
+        }
+    }
+}
