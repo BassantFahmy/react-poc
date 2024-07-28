@@ -6,6 +6,7 @@
     height: 92vh;
     border-right: 1px solid $gray;
     position: fixed;
+
     li {
         height: 5rem;
         padding-left: $padding-medium;
@@ -13,6 +14,7 @@
         text-align: center;
         align-items: center;
         @include block-colors($white, $gray);
+
         &:hover {
             @include block-colors($white, $primary);
         }

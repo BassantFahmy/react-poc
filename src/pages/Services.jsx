@@ -10,13 +10,13 @@ const Services = () => {
         <div className='t-container'>
             <ul className='tabs'>
                 <li>
-                    <button className={showNav === 1 ? 'btn btn--rectangle btn--white t-bold tabs-active':'btn btn--rectangle btn--white t-bold'}  onClick={() => UpdateNavVisibility(1)}>service 1</button>
+                    <button className={showNav === 1 ? 'btn btn--rectangle btn--white t-bold tabs-active' : 'btn btn--rectangle btn--white t-bold'} onClick={() => UpdateNavVisibility(1)}>service 1</button>
                 </li>
                 <li>
-                    <button className={showNav === 2 ? 'btn btn--rectangle btn--white t-bold tabs-active':'btn btn--rectangle btn--white t-bold'} onClick={() => UpdateNavVisibility(2)}>service 2</button>
+                    <button className={showNav === 2 ? 'btn btn--rectangle btn--white t-bold tabs-active' : 'btn btn--rectangle btn--white t-bold'} onClick={() => UpdateNavVisibility(2)}>service 2</button>
                 </li>
                 <li>
-                    <button className={showNav === 3 ? 'btn btn--rectangle btn--white t-bold tabs-active':'btn btn--rectangle btn--white t-bold'}  onClick={() => UpdateNavVisibility(3)}>service 3</button>
+                    <button className={showNav === 3 ? 'btn btn--rectangle btn--white t-bold tabs-active' : 'btn btn--rectangle btn--white t-bold'} onClick={() => UpdateNavVisibility(3)}>service 3</button>
                 </li>
             </ul>
             <div className="t-text-center t-pt-m">

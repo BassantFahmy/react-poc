@@ -1,15 +1,15 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 const SideNavBar = () => {
     return (
         <div className='sidebar'>
             <ul>
                 <li>
-                      <Link to='/Products'>Products</Link>
+                    <NavLink to='/Products'>Products</NavLink>
                 </li>
                 <li>
                     <a>Resume</a>
-                 
+
                 </li>
                 <li>  <a>Details</a>
                 </li>

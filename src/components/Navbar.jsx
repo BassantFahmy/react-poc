@@ -1,13 +1,16 @@
 import React from 'react'
 import logo from '../assets/images/bird_2.jpg';
 import { FaBars } from "@react-icons/all-files/fa/FaBars";
+import { FaWindowClose  } from "@react-icons/all-files/fa/FaWindowClose";
+
 import { NavLink } from "react-router-dom";
-const Navbar = ({ clickHandle }) => {
+
+const Navbar = ({ clickHandle ,isDrawerAppears}) => {
 
   return (
     <>
       <nav className="navbar t-pr-m t-pl-m" id="navbar">
-        <a onClick={(e) => clickHandle(e)}> <FaBars /></a>
+        <a onClick={(e) => clickHandle(e)}> {isDrawerAppears?<FaWindowClose  />:<FaBars />}</a>
         <div className="navbar__logo">
           <img src={logo} alt="Logo" />
         </div>

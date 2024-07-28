@@ -12,7 +12,7 @@ const layout = () => {
     }
     return (
         <>
-            <Navbar clickHandle={clickHandle} />
+            <Navbar clickHandle={clickHandle} isDrawerAppears={showDrawer}/>
             <div className="t-flex">
                 {
                     showDrawer && <SideNavBar />
