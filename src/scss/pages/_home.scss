@@ -1,5 +1,5 @@
 .cover {
-    height: 45rem;
+    min-height: calc(100vh - 19rem);
     width: 100%;
     color: rgba(255, 255, 255, .92);
     background-repeat: no-repeat;
@@ -11,7 +11,7 @@
 
 .layout {
     background-color: rgba(0, 0, 0, 0.7);
-    height: 45rem;
+    min-height: calc(100vh - 19rem);
 }
 
 
